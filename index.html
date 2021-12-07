@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Kolorowanie tabeli HTML</title>
+<style type="text/css">
+   table {width:100%;}
+   table, table th, table td, table caption {border: 1px solid #000000;}
+   /* Kolor tabeli HTML */
+   table {background-color: #FFA500;}
+   table thead th {color: #FFFFFF;}
+   table caption {background-color: #C0C0C0;}
+   table tbody tr:nth-of-type(even) { background-color: #FFFFFF; }
+   table tbody tr:nth-of-type(odd) { background-color: #C0C0C0; }
+   td[colspan] {background-color: #FAF7E5;}
+   td[rowspan] {background-color: #FFD700;}
+</style>
+</head>
+<body>
+<table>
+   
+   <thead>
+      <tr>
+         <th style="width:15%;">Kolumna 1</th>
+         <th style="width:25%;">Kolumna 2</th>
+         <th style="width:20%;">Kolumna 3</th>
+         <th style="width:30%;">Kolumna 4</th>
+         <th style="width:10%;">Kolumna 5</th>
+         <th style="width:10%;">Kolumna 5</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>Komórka 1</td>
+         <td>Komórka 2</td>
+         <td>Komórka 3</td>
+         <td>Komórka 4</td>
+         <td>Komórka 5</td>
+          <td>Komórka 1</td>
+      </tr>
+      <tr>
+          <td>Komórka 1</td>
+         <td>Komórka 2</td>
+         <td>Komórka 3</td>
+         <td>Komórka 4</td>
+         <td>Komórka 5</td>
+          <td>Komórka 1</td>
+      </tr>
+      <tr>
+         <td>Komórka 11</td>
+         <td>Komórka 12</td>
+         <td>Komórka 13</td>
+         <td>Komórka 14</td>
+          <td>Komórka 13</td>
+         <td>Komórka 14</td>
+         <!-- <td>Komórka 15</td> -->
+      </tr>
+      <tr>
+         <td>Komórka 11</td>
+         <td>Komórka 12</td>
+         <td>Komórka 13</td>
+         <td>Komórka 14</td>
+          <td>Komórka 13</td>
+         <td>Komórka 14</td>
+      </tr>
+      <tr>
+         <td>Komórka 21</td>
+         <td>Komórka 22</td>
+         <td>Komórka 23</td>
+         <td>Komórka 24</td>
+         <td>Komórka 25</td>
+          <td>Komórka 24</td>
+      </tr>
+   </tbody>
+   <tfoot>
+      <tr>
+       
+      </tr>
+   </tfoot>
+</table>
+</body>
+</html> 
